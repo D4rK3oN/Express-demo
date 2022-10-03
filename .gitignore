@@ -1,3 +1,5 @@
+build/
+
 # Logs
 logs
 *.log
@@ -102,3 +104,27 @@ dist
 
 # TernJS port file
 .tern-port
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
