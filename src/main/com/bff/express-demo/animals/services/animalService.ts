@@ -1,5 +1,5 @@
 import { Animal, AnimalInfo, NewAnimalInput } from '../types'
-import data from '../../../../../../../src/resources/animals.json'
+import data from '../../../../../../resources/animals.json'
 
 const animals: Animal[] = data as Animal[]
 

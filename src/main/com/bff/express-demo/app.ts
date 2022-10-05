@@ -1,6 +1,6 @@
 import express from 'express'
 
-import animalRouter from './animal/routes/animalRouter'
+import animalRouter from './animals/routes/animalRouter'
 
 const app = express()
 

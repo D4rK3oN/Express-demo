@@ -1,0 +1,30 @@
+type Animal {
+  id: ID!
+  name: String
+  size: Float
+  sizeText: String
+}
+
+input FindAnimalsInput {
+  name: String!
+  size: Float
+}
+
+input GetAnimalByIdInput {
+  id: ID!
+}
+
+input NewAnimalInput {
+  name: String!
+  size: Float
+}
+
+type Query {
+  findAllAnimals: [Animal]!
+  findAnimals(findAnimalsInput: FindAnimalsInput!): [Animal]!
+  getAnimalById(getAnimalByIdInput: GetAnimalByIdInput!): Animal
+}
+
+type Mutation {
+  addAnimal(newAnimalInput: NewAnimalInput!): Animal
+}

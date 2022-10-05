@@ -1,0 +1,23 @@
+overwrite: true
+
+schema: "src/resources/graphql/schemas/**/*.graphql"
+
+config:
+  scalars:
+    AWSDate: string
+    AWSDateTime: string
+    AWSEmail: string
+    AWSIPAddress: string
+    AWSJSON: string
+    AWSPhone: string
+    AWSTime: string
+    AWSTimestamp: number
+    AWSURL: string
+  declarationKind: "interface"
+  immutableTypes: true
+
+generates:
+  build/resources/graphql/generated/graphql.ts:
+    plugins:
+      - "typescript"
+      - "typescript-resolvers"
