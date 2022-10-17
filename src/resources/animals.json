@@ -1,22 +1,22 @@
 [
-    {
-        "id": 1,
-        "name": "Luna",
-        "size": "M"
-    },
-    {
-        "id": 2,
-        "name": "Misi",
-        "size": "S"
-    },
-    {
-        "id": 3,
-        "name": "Shaggy",
-        "size": "L"
-    },
-    {
-        "id": 4,
-        "name": "Calcetines",
-        "size": "XL"
-    }
+  {
+    "id": 1,
+    "name": "Luna",
+    "size": "M"
+  },
+  {
+    "id": 2,
+    "name": "Misi",
+    "size": "S"
+  },
+  {
+    "id": 3,
+    "name": "Shaggy",
+    "size": "L"
+  },
+  {
+    "id": 4,
+    "name": "Calcetines",
+    "size": "XL"
+  }
 ]

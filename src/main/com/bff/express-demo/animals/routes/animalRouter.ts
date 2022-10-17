@@ -11,9 +11,7 @@ router.get('/', (_req, res) => {
 router.get('/:id', (req, res) => {
   const animal = animalService.findById(+req.params.id)
 
-  return (animal == null)
-    ? res.sendStatus(404)
-    : res.send(animal)
+  return animal == null ? res.sendStatus(404) : res.send(animal)
 })
 
 router.post('/', (req, res) => {
